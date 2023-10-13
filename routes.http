@@ -1,4 +1,4 @@
-POST http://localhost:5000/videos
+POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
@@ -9,12 +9,12 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:5000/videos
+GET http://localhost:3333/videos
 # GET http://localhost:5000/videos?search=node --> Busca na lista o que contém node no título
 
 ###
 
-PUT http://localhost:5000/videos/ID
+PUT http://localhost:3333/videos/ID
 Content-Type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:5000/videos/ID
+DELETE http://localhost:3333/videos/ID
