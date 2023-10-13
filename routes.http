@@ -1,0 +1,28 @@
+POST http://localhost:5000/videos
+Content-Type: application/json
+
+{
+    "title": "video 03",
+    "description": "Esse é o vídeo 03!",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:5000/videos
+# GET http://localhost:5000/videos?search=node --> Busca na lista o que contém node no título
+
+###
+
+PUT http://localhost:5000/videos/ID
+Content-Type: application/json
+
+{
+    "title": "vide update UHUUULL",
+    "description": "Esse é o vídeo com update",
+    "duration": 90
+}
+
+###
+
+DELETE http://localhost:5000/videos/ID
